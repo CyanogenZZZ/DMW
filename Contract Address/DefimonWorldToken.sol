@@ -25,7 +25,7 @@ pragma solidity ^0.4.24;
 // Name          : Defimon World
 // Total supply  : 50000
 // Decimals      : 18
-// Owner Account : 0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe
+// Owner Account : 
 //
 // ----------------------------------------------------------------------------
 
@@ -103,8 +103,8 @@ contract DMWToken is ERC20Interface, SafeMath {
         name = "Defimon World";
         decimals = 18;
         _totalSupply = 50000;
-        balances[0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe] = _totalSupply;
-        emit Transfer(address(0), 0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe, _totalSupply);
+        balances[] = _totalSupply;
+        emit Transfer(address(0), , _totalSupply);
     }
 
 
