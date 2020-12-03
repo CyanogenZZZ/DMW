@@ -1,4 +1,4 @@
-pragma solidity ^0.4.24;
+pragma solidity ^0.5.0;
 
  * This file was created by Defimon World (https://www.defimonworld.com
  * The complete code could be found at https://github.com/defimonworld
